@@ -86,7 +86,7 @@ Open your browser at: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ### 1. `/upload`
 
-* Upload CSV file
+* Upload CSV file (from the sample data folder)
 * Specify target column (e.g., `Churn`)
 * Output: column types, missing values, preview
 
@@ -113,7 +113,7 @@ Open your browser at: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ### 4. `/predict`
 
-* Upload a test CSV
+* Upload a test CSV (from the sample data folder)
 * Choose trained model (e.g., `svm`)
 * Auto-preprocesses test data using stored metadata
 * Predicts churn and probabilities
@@ -169,10 +169,13 @@ Downloadable CSV will include:
 
 ---
 
+## Add frontend UI (React/Vite)
+
+* see the screenshots from the Images folder
+
 ## 🌟 Future Enhancements
 
 * Dockerize app
-* Add frontend UI (React/Vite)
 * Confusion matrix and ROC curve visualization
 * Versioned model management
 * SQLite/NoSQL database for logs
