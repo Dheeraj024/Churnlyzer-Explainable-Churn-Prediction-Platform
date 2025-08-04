@@ -122,6 +122,22 @@ Open your browser at: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
+## 🔧 Environment Setup
+
+1. Copy `.env.example` to `.env`:
+```bash
+cp .env.example .env
+```
+
+2. Update `.env` with your credentials:
+```env
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
+```
+
+> ⚠️ Never commit the `.env` file with real credentials!
+
+---
+
 ## 🔧 HuggingFace Integration (Free Tier)
 
 Ensure you have `.env` file with:
