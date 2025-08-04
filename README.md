@@ -107,7 +107,7 @@ Open your browser at: [http://localhost:8000/docs](http://localhost:8000/docs)
   * `logistic_regression`
   * `random_forest`
   * `svm`
-  * `naive_bayes`
+
 * Trains and saves models in `models/`
 * Returns accuracy, precision, recall, F1, ROC AUC, confusion matrix
 
